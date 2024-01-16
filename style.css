@@ -61,24 +61,11 @@ body {
 .discount_heading {
     color: yellow;
     font-size: 35px;
-    background-color: rgb(92, 78, 117);
+    background-color: rgb(48, 161, 165);
     text-align: center;
     animation: YRotation 5s ease 0s infinite forwards alternate;
 
 }
-
-/** all keyframes should be at bottom**/
-/* @keyframes YRotation {
-    0%{
-        transform: rotateY(-25deg);
-    }
-    50% {
-        transform: rotateY(25deg);
-    }
-    100% {
-        transform: rotateY(-25deg);
-    }
-} */
 
 @keyframes YRotation {
     from {
